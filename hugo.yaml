@@ -1,0 +1,19 @@
+baseURL: https://Thomasff.github.io/
+locale: zh-cn
+title: Thomasff Blog
+
+params:
+  description: Thomasff 的个人博客
+
+menu:
+  main:
+    - name: 首页
+      pageRef: /
+      weight: 1
+    - name: 文章
+      pageRef: /posts
+      weight: 2
+
+caches:
+  images:
+    dir: :cacheDir/images
