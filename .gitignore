@@ -3,3 +3,5 @@
 /.hugo_build.lock
 /.DS_Store
 Thumbs.db
+preview.cmd
+preview.ps1
